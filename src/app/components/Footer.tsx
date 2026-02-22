@@ -30,7 +30,7 @@ export default function Footer() {
               <a href="https://www.instagram.com/shreesiddhivinayakhomes?igsh=MXNqOG8xemJhY3RoNA==" target="_blank" rel="noopener noreferrer" className="w-9 h-9 bg-gray-800 rounded-full flex items-center justify-center hover:bg-teal-600 transition-colors">
                 <Instagram className="w-4 h-4" />
               </a>
-              <a href="https://share.google/nCxAM5tuk0zY20yKl" target="_blank" rel="noopener noreferrer" className="w-9 h-9 bg-gray-800 rounded-full flex items-center justify-center hover:bg-teal-600 transition-colors">
+              <a href="https://www.google.com/maps/dir//Singapore+Business+Park,+AB+Rd,+LIG+Square,+Anoop+Nagar,+Indore,+Madhya+Pradesh+452011/@22.684975,75.8185309,15z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3962fdd44bff8a4b:0xa28fcbb8ffeef7b6!2m2!1d75.8904738!2d22.7336929?entry=ttu&g_ep=EgoyMDI2MDIxOC4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer" className="w-9 h-9 bg-gray-800 rounded-full flex items-center justify-center hover:bg-teal-600 transition-colors">
                 <MapPin className="w-4 h-4" />
               </a>
             </div>

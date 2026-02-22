@@ -30,21 +30,28 @@ export default function Contact() {
               <h2 className="text-3xl mb-8 text-gray-900">Get In Touch</h2>
 
               <div className="space-y-6 mb-8">
-                <Card className="p-6">
-                  <div className="flex items-start gap-4">
-                    <div className="w-12 h-12 bg-teal-100 rounded-full flex items-center justify-center flex-shrink-0">
-                      <MapPin className="w-6 h-6 text-teal-600" />
+                <a
+                  href="https://www.google.com/maps/dir//Singapore+Business+Park,+AB+Rd,+LIG+Square,+Anoop+Nagar,+Indore,+Madhya+Pradesh+452011/@22.684975,75.8185309,15z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3962fdd44bff8a4b:0xa28fcbb8ffeef7b6!2m2!1d75.8904738!2d22.7336929?entry=ttu&g_ep=EgoyMDI2MDIxOC4wIKXMDSoASAFQAw%3D%3D"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block transition-transform hover:scale-[1.02]"
+                >
+                  <Card className="p-6">
+                    <div className="flex items-start gap-4">
+                      <div className="w-12 h-12 bg-teal-100 rounded-full flex items-center justify-center flex-shrink-0">
+                        <MapPin className="w-6 h-6 text-teal-600" />
+                      </div>
+                      <div>
+                        <h3 className="text-lg mb-2 text-gray-900">Office Address</h3>
+                        <p className="text-gray-600">
+                          307, Singapore Business Park<br />
+                          LIG Square, Indore<br />
+                          Madhya Pradesh 452011
+                        </p>
+                      </div>
                     </div>
-                    <div>
-                      <h3 className="text-lg mb-2 text-gray-900">Office Address</h3>
-                      <p className="text-gray-600">
-                        307, Singapore Business Park<br />
-                        LIG Square, Indore<br />
-                        Madhya Pradesh 452011
-                      </p>
-                    </div>
-                  </div>
-                </Card>
+                  </Card>
+                </a>
 
                 <Card className="p-6">
                   <div className="flex items-start gap-4">
@@ -161,8 +168,17 @@ export default function Contact() {
       <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl md:text-4xl mb-8 text-gray-900 text-center">Visit Our Office</h2>
-          <div className="h-[400px] bg-gray-300 rounded-lg flex items-center justify-center">
-            <span className="text-gray-600 text-lg">Interactive Map View</span>
+          <div className="h-[450px] bg-gray-200 rounded-2xl overflow-hidden shadow-inner border border-gray-100">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3679.8533133826186!2d75.8904738!3d22.733692899999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3962fdd44bff8a4b%3A0xa28fcbb8ffeef7b6!2sSingapore%20Business%20Park!5e0!3m2!1sen!2sin!4v1771800845592!5m2!1sen!2sin"
+              width="100%"
+              height="100%"
+              style={{ border: 0 }}
+              allowFullScreen={true}
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              title="SSV Homes Office Location"
+            ></iframe>
           </div>
         </div>
       </section>
